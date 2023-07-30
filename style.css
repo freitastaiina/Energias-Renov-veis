@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 100%;
+    
+}
+
+.conteudo {
+    background-color: #c9ceda;
+    text-align: justify;
+    padding: 50px 80px;
+}
+
+h2 {
+    font-size: 1.5em;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(9, 11, 105);
+    padding: 10px;
+}
+
+#menu ul {
+    list-style: none;
+    position: fixed; 
+    right: 0; 
+    justify-content: center; 
+    align-items: center;   
+    z-index: 1;
+    margin-right: 30px;
+}
+    
+#menu ul li {
+    margin-top: 20px;
+    float: left;
+    margin-right: 1px;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    background-color: rgb(9, 11, 105);
+    color: white;
+    padding: 10px;
+    font-size: 0.9em;
+}
+
+.caixa-img1,
+.caixa-img2,
+.caixa-img3,  
+.caixa-img4,
+.caixa-img5, 
+.caixa-img6 {
+    position: relative;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.caixa-img1 {
+    background-image: url(imagens/imagem1.jpg)
+}
+
+.caixa-img2 {
+    background-image: url(imagens/imagem2.jpg);
+}
+
+.caixa-img3 {
+    background-image: url(imagens/imagem3.jpg);
+}
+
+
+.caixa-img4 {
+    background-image: url(imagens/imagem4.jpg);
+}
+
+.caixa-img5 {
+    background-image: url(imagens/imagem5.jpg);
+}
+
+.caixa-img6 {
+    background-image: url(imagens/imagem6.jpg);
+}
+
+p {
+    text-indent: 40px;;
+}
+
+.conteudo-titulo {
+    position: absolute;
+    top: 45%;
+    text-align: center;
+    width: 100%;
+ }
+
+.conteudo-titulo span.titulo { 
+    color: white;
+    background-color: rgb(9, 11, 105);
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 18px;
+    font-size: 35px;
+    letter-spacing: 5px;
+}
+
+fieldset {
+    width: 662px;
+    padding-top: 20px;
+    border: none;
+    margin: auto;
+}
+
+fieldset label {
+    color: rgb(9, 11, 105);
+    background-color: #c9ceda;
+    border: 1px solid rgb(9, 11, 105);
+    padding: 5px;
+}
+
+legend {
+    color: white;
+    font-size: 0.8em;
+    padding-top: 15px;
+}
+ 
+textarea {
+    width: 400px;
+    height: 100px;
+    margin-top: 10px;
+    background-color: #c9ceda;
+    border: 1px solid rgb(9, 11, 105);
+}
+
+#dados input {
+    width: 400px;
+    height: 25px;
+    margin: 10px 0 10px 0;
+    background-color: #c9ceda;
+    border: 1px solid rgb(9, 11, 105);
+}
+
+#enviar input {
+    color:  white;
+    background-color:  rgb(9, 11, 105);
+    margin-top: 5px;
+    padding: 6px;
+    width: 150px;
+    margin-left: 125px;
+}
+
+#conteudo-fim {
+	height: 100%;
+    background-image: url(imagens/imagem7.jpg);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#conteudo-fim h2 {
+    background-color: rgb(9, 11, 105);
+    color: white;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: rgb(9, 11, 105);
+    color: white;
+    font-size: 0.9em;
+    padding: 8px;
+    text-align: center;
+}
+
+#menu a:hover {
+    background-color: #c9ceda;
+    color: rgb(9, 11, 105);
+}
